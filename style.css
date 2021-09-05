@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background: linear-gradient(#AB47BC 0%, #42A5F5 100%);
+    margin: 0;
+    padding-top: 8px;
+}
+
+h1 {
+  font-family:font-family: 'Lobster', cursive;;
+  font-size:35px;
+  text-shadow: 3px 2px pink;
+}
+
+h3 {
+  font-family:font-family: 'Lobster', cursive;;
+  color: navy;
+}
+
+#overview {
+  padding:20px;
+  font-size:18px;
+  text-align:center;
+}
+
+#bike {
+    width: 300px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.line {
+    height: 5px;
+    width: 70px;
+    margin: 8px auto;
+    background-color: #81C784;
+}
+.menu {
+    font-family: sans-serif;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    color: cornflowerblue;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: dodgerblue;
+}
